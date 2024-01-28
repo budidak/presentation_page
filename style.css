@@ -1,0 +1,47 @@
+:root {
+  --page-1-color: steelblue;
+  --page-2-color: saddlebrown;
+  --page-3-color: teal;
+  --page-4-color: slateblue;
+  --page-5-color: olive;
+  --animate-duration: 2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  line-height: 1.4;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Page colors */
+#page-1 {
+  background-color: var(--page-1-color);
+}
+
+#page-2 {
+  background-color: var(--page-2-color);
+}
+
+#page-3 {
+  background-color: var(--page-3-color);
+}
+
+#page-4 {
+  background-color: var(--page-4-color);
+}
+
+#page-5 {
+  background-color: var(--page-5-color);
+}
