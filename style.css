@@ -91,3 +91,26 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
+
+/* Page animation */
+#page-1 h1 {
+  transform: translate(0, -1200px);
+  animation: headingAnimation var(--animate-duration) forwards ease-in;
+}
+
+#page-1 p {
+  transform: translate(-1800px, 0);
+  animation: textAnimation var(--animate-duration) forwards ease-in 1s;
+}
+
+@keyframes headingAnimation {
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes textAnimation {
+  to {
+    transform: translate(0, 0);
+  }
+}
